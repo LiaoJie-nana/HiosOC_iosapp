@@ -9,11 +9,26 @@
 /* Begin PBXBuildFile section */
 		005EAF04268B4D3800009C61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 005EAF03268B4D3800009C61 /* AppDelegate.m */; };
 		005EAF07268B4D3800009C61 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 005EAF06268B4D3800009C61 /* SceneDelegate.m */; };
-		005EAF0A268B4D3800009C61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005EAF09268B4D3800009C61 /* ViewController.m */; };
 		005EAF0D268B4D3800009C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005EAF0B268B4D3800009C61 /* Main.storyboard */; };
 		005EAF0F268B4D3A00009C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005EAF0E268B4D3A00009C61 /* Assets.xcassets */; };
 		005EAF12268B4D3A00009C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005EAF10268B4D3A00009C61 /* LaunchScreen.storyboard */; };
 		005EAF15268B4D3A00009C61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 005EAF14268B4D3A00009C61 /* main.m */; };
+		005EAF30268B52BB00009C61 /* HONewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005EAF2F268B52BB00009C61 /* HONewsViewController.m */; };
+		005EAF34268B52E500009C61 /* HONewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 005EAF33268B52E500009C61 /* HONewsTableViewCell.m */; };
+		005EAF38268B530100009C61 /* HOListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 005EAF37268B530100009C61 /* HOListItem.m */; };
+		005EAF3C268B531A00009C61 /* HOListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 005EAF3B268B531A00009C61 /* HOListLoader.m */; };
+		00ABB10526A02CDB00B28295 /* LikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABB10426A02CDB00B28295 /* LikeButton.m */; };
+		00ABB10926A06E4000B28295 /* HOVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABB10826A06E4000B28295 /* HOVideoViewController.m */; };
+		00ABB10C26A06E9600B28295 /* HOVideoCoverCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABB10B26A06E9600B28295 /* HOVideoCoverCollectionViewCell.m */; };
+		00ABB10F26A06EBE00B28295 /* HOVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABB10E26A06EBE00B28295 /* HOVideoPlayer.m */; };
+		00ABB11226A06EE800B28295 /* HOVideoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABB11126A06EE800B28295 /* HOVideoToolbar.m */; };
+		00FB920426A27A00001090D7 /* HOVideoListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB920326A27A00001090D7 /* HOVideoListItem.m */; };
+		00FB920726A27A2A001090D7 /* HOVideoListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB920626A27A2A001090D7 /* HOVideoListLoader.m */; };
+		00FB920E26A51C24001090D7 /* HOPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB920D26A51C24001090D7 /* HOPlayerViewController.m */; };
+		00FB921226A56361001090D7 /* HOdbmanager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB921126A56361001090D7 /* HOdbmanager.m */; };
+		00FB921426A57BF9001090D7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FB921326A57BD9001090D7 /* libsqlite3.0.tbd */; };
+		00FB921A26A5B204001090D7 /* HONotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB921926A5B204001090D7 /* HONotification.m */; };
+		D66333D3621B1A4A4475E9C8 /* libPods-HiosOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFB12E5EA272F26064D9C0F /* libPods-HiosOC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +37,44 @@
 		005EAF03268B4D3800009C61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		005EAF05268B4D3800009C61 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		005EAF06268B4D3800009C61 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		005EAF08268B4D3800009C61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		005EAF09268B4D3800009C61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		005EAF0C268B4D3800009C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		005EAF0E268B4D3A00009C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		005EAF11268B4D3A00009C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		005EAF13268B4D3A00009C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		005EAF14268B4D3A00009C61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		005EAF2E268B52BB00009C61 /* HONewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HONewsViewController.h; sourceTree = "<group>"; };
+		005EAF2F268B52BB00009C61 /* HONewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HONewsViewController.m; sourceTree = "<group>"; };
+		005EAF32268B52E500009C61 /* HONewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HONewsTableViewCell.h; sourceTree = "<group>"; };
+		005EAF33268B52E500009C61 /* HONewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HONewsTableViewCell.m; sourceTree = "<group>"; };
+		005EAF36268B530100009C61 /* HOListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOListItem.h; sourceTree = "<group>"; };
+		005EAF37268B530100009C61 /* HOListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOListItem.m; sourceTree = "<group>"; };
+		005EAF3A268B531A00009C61 /* HOListLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOListLoader.h; sourceTree = "<group>"; };
+		005EAF3B268B531A00009C61 /* HOListLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOListLoader.m; sourceTree = "<group>"; };
+		00ABB10326A02CDB00B28295 /* LikeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeButton.h; sourceTree = "<group>"; };
+		00ABB10426A02CDB00B28295 /* LikeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeButton.m; sourceTree = "<group>"; };
+		00ABB10726A06E4000B28295 /* HOVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOVideoViewController.h; sourceTree = "<group>"; };
+		00ABB10826A06E4000B28295 /* HOVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOVideoViewController.m; sourceTree = "<group>"; };
+		00ABB10A26A06E9600B28295 /* HOVideoCoverCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOVideoCoverCollectionViewCell.h; sourceTree = "<group>"; };
+		00ABB10B26A06E9600B28295 /* HOVideoCoverCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOVideoCoverCollectionViewCell.m; sourceTree = "<group>"; };
+		00ABB10D26A06EBE00B28295 /* HOVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOVideoPlayer.h; sourceTree = "<group>"; };
+		00ABB10E26A06EBE00B28295 /* HOVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOVideoPlayer.m; sourceTree = "<group>"; };
+		00ABB11026A06EE800B28295 /* HOVideoToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOVideoToolbar.h; sourceTree = "<group>"; };
+		00ABB11126A06EE800B28295 /* HOVideoToolbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOVideoToolbar.m; sourceTree = "<group>"; };
+		00FB920226A27A00001090D7 /* HOVideoListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOVideoListItem.h; sourceTree = "<group>"; };
+		00FB920326A27A00001090D7 /* HOVideoListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOVideoListItem.m; sourceTree = "<group>"; };
+		00FB920526A27A2A001090D7 /* HOVideoListLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOVideoListLoader.h; sourceTree = "<group>"; };
+		00FB920626A27A2A001090D7 /* HOVideoListLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOVideoListLoader.m; sourceTree = "<group>"; };
+		00FB920C26A51C24001090D7 /* HOPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOPlayerViewController.h; sourceTree = "<group>"; };
+		00FB920D26A51C24001090D7 /* HOPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOPlayerViewController.m; sourceTree = "<group>"; };
+		00FB921026A56361001090D7 /* HOdbmanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOdbmanager.h; sourceTree = "<group>"; };
+		00FB921126A56361001090D7 /* HOdbmanager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOdbmanager.m; sourceTree = "<group>"; };
+		00FB921326A57BD9001090D7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		00FB921526A5AD6B001090D7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		00FB921826A5B204001090D7 /* HONotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HONotification.h; sourceTree = "<group>"; };
+		00FB921926A5B204001090D7 /* HONotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HONotification.m; sourceTree = "<group>"; };
+		42734B5D03B0A2F4F4AAD7C8 /* Pods-HiosOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiosOC.debug.xcconfig"; path = "Target Support Files/Pods-HiosOC/Pods-HiosOC.debug.xcconfig"; sourceTree = "<group>"; };
+		6FFB12E5EA272F26064D9C0F /* libPods-HiosOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HiosOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E8D8EBD6F358D5A6C33C67 /* Pods-HiosOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiosOC.release.xcconfig"; path = "Target Support Files/Pods-HiosOC/Pods-HiosOC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +82,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FB921426A57BF9001090D7 /* libsqlite3.0.tbd in Frameworks */,
+				D66333D3621B1A4A4475E9C8 /* libPods-HiosOC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00103AB7269ED40100421E91 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				005EAF2E268B52BB00009C61 /* HONewsViewController.h */,
+				005EAF2F268B52BB00009C61 /* HONewsViewController.m */,
+				005EAF32268B52E500009C61 /* HONewsTableViewCell.h */,
+				005EAF33268B52E500009C61 /* HONewsTableViewCell.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		00103AB8269ED44300421E91 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				005EAF3A268B531A00009C61 /* HOListLoader.h */,
+				005EAF3B268B531A00009C61 /* HOListLoader.m */,
+				00FB920526A27A2A001090D7 /* HOVideoListLoader.h */,
+				00FB920626A27A2A001090D7 /* HOVideoListLoader.m */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		00103AB9269ED45D00421E91 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				005EAF36268B530100009C61 /* HOListItem.h */,
+				005EAF37268B530100009C61 /* HOListItem.m */,
+				00FB920226A27A00001090D7 /* HOVideoListItem.h */,
+				00FB920326A27A00001090D7 /* HOVideoListItem.m */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		005EAEF6268B4D3800009C61 = {
 			isa = PBXGroup;
 			children = (
 				005EAF01268B4D3800009C61 /* HiosOC */,
 				005EAF00268B4D3800009C61 /* Products */,
+				4CA7D1B1DEE7D7BDF29796E7 /* Pods */,
+				A4ACD4D329DECB19B9D30055 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +144,18 @@
 		005EAF01268B4D3800009C61 /* HiosOC */ = {
 			isa = PBXGroup;
 			children = (
+				00FB921726A5B1DC001090D7 /* Notification */,
+				00FB920F26A56333001090D7 /* manager */,
+				00FB920826A4316A001090D7 /* Player */,
+				00ABB10626A06E0F00B28295 /* Video */,
+				00ABB10226A02C7100B28295 /* Button */,
+				00103AB9269ED45D00421E91 /* data */,
+				00103AB8269ED44300421E91 /* Loader */,
+				00103AB7269ED40100421E91 /* News */,
 				005EAF02268B4D3800009C61 /* AppDelegate.h */,
 				005EAF03268B4D3800009C61 /* AppDelegate.m */,
 				005EAF05268B4D3800009C61 /* SceneDelegate.h */,
 				005EAF06268B4D3800009C61 /* SceneDelegate.m */,
-				005EAF08268B4D3800009C61 /* ViewController.h */,
-				005EAF09268B4D3800009C61 /* ViewController.m */,
 				005EAF0B268B4D3800009C61 /* Main.storyboard */,
 				005EAF0E268B4D3A00009C61 /* Assets.xcassets */,
 				005EAF10268B4D3A00009C61 /* LaunchScreen.storyboard */,
@@ -76,6 +165,76 @@
 			path = HiosOC;
 			sourceTree = "<group>";
 		};
+		00ABB10226A02C7100B28295 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				00ABB10326A02CDB00B28295 /* LikeButton.h */,
+				00ABB10426A02CDB00B28295 /* LikeButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		00ABB10626A06E0F00B28295 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				00ABB10726A06E4000B28295 /* HOVideoViewController.h */,
+				00ABB10826A06E4000B28295 /* HOVideoViewController.m */,
+				00ABB10A26A06E9600B28295 /* HOVideoCoverCollectionViewCell.h */,
+				00ABB10B26A06E9600B28295 /* HOVideoCoverCollectionViewCell.m */,
+				00ABB10D26A06EBE00B28295 /* HOVideoPlayer.h */,
+				00ABB10E26A06EBE00B28295 /* HOVideoPlayer.m */,
+				00ABB11026A06EE800B28295 /* HOVideoToolbar.h */,
+				00ABB11126A06EE800B28295 /* HOVideoToolbar.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		00FB920826A4316A001090D7 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				00FB920C26A51C24001090D7 /* HOPlayerViewController.h */,
+				00FB920D26A51C24001090D7 /* HOPlayerViewController.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		00FB920F26A56333001090D7 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				00FB921026A56361001090D7 /* HOdbmanager.h */,
+				00FB921126A56361001090D7 /* HOdbmanager.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		00FB921726A5B1DC001090D7 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				00FB921826A5B204001090D7 /* HONotification.h */,
+				00FB921926A5B204001090D7 /* HONotification.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		4CA7D1B1DEE7D7BDF29796E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42734B5D03B0A2F4F4AAD7C8 /* Pods-HiosOC.debug.xcconfig */,
+				B5E8D8EBD6F358D5A6C33C67 /* Pods-HiosOC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4ACD4D329DECB19B9D30055 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00FB921526A5AD6B001090D7 /* libsqlite3.tbd */,
+				00FB921326A57BD9001090D7 /* libsqlite3.0.tbd */,
+				6FFB12E5EA272F26064D9C0F /* libPods-HiosOC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 005EAF18268B4D3A00009C61 /* Build configuration list for PBXNativeTarget "HiosOC" */;
 			buildPhases = (
+				9EA136E4BAEF2D060CAE74BE /* [CP] Check Pods Manifest.lock */,
 				005EAEFB268B4D3800009C61 /* Sources */,
 				005EAEFC268B4D3800009C61 /* Frameworks */,
 				005EAEFD268B4D3800009C61 /* Resources */,
@@ -140,14 +300,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9EA136E4BAEF2D060CAE74BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiosOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		005EAEFB268B4D3800009C61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				005EAF0A268B4D3800009C61 /* ViewController.m in Sources */,
+				00FB921226A56361001090D7 /* HOdbmanager.m in Sources */,
+				00FB920E26A51C24001090D7 /* HOPlayerViewController.m in Sources */,
+				00ABB10526A02CDB00B28295 /* LikeButton.m in Sources */,
+				005EAF30268B52BB00009C61 /* HONewsViewController.m in Sources */,
+				00ABB10F26A06EBE00B28295 /* HOVideoPlayer.m in Sources */,
+				00ABB10926A06E4000B28295 /* HOVideoViewController.m in Sources */,
+				00FB921A26A5B204001090D7 /* HONotification.m in Sources */,
+				00ABB11226A06EE800B28295 /* HOVideoToolbar.m in Sources */,
+				005EAF34268B52E500009C61 /* HONewsTableViewCell.m in Sources */,
+				00FB920426A27A00001090D7 /* HOVideoListItem.m in Sources */,
 				005EAF04268B4D3800009C61 /* AppDelegate.m in Sources */,
+				005EAF38268B530100009C61 /* HOListItem.m in Sources */,
 				005EAF15268B4D3A00009C61 /* main.m in Sources */,
+				005EAF3C268B531A00009C61 /* HOListLoader.m in Sources */,
+				00FB920726A27A2A001090D7 /* HOVideoListLoader.m in Sources */,
+				00ABB10C26A06E9600B28295 /* HOVideoCoverCollectionViewCell.m in Sources */,
 				005EAF07268B4D3800009C61 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +486,7 @@
 		};
 		005EAF19268B4D3A00009C61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42734B5D03B0A2F4F4AAD7C8 /* Pods-HiosOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,12 +498,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jokerliao.HiosOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		005EAF1A268B4D3A00009C61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E8D8EBD6F358D5A6C33C67 /* Pods-HiosOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,7 +516,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jokerliao.HiosOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
