@@ -6,6 +6,10 @@
 //
 
 #import "SceneDelegate.h"
+#import "HONewsViewController.h"
+#import "HOVideoViewController.h"
+#import "HOPlayerViewController.h"
+#import "HONotification.h"
 
 @interface SceneDelegate ()
 
@@ -15,9 +19,32 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-    // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-    // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-    // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    UIWindowScene *windowScene = (UIWindowScene*)scene;//想问这句什么意思
+    self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
+    self.window.frame = windowScene.coordinateSpace.bounds;
+    UITabBarController *tabbarController = [ [UITabBarController alloc] init];
+    
+    HONewsViewController *newscontroller = [[HONewsViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:newscontroller];
+    navigationController.tabBarItem.title = @"新闻";
+    
+    HOVideoViewController *videocontroller = [[HOVideoViewController alloc] init];
+    
+    videocontroller.tabBarItem.title = @"视频";
+    
+    HOPlayerViewController *Playercontroller = [[HOPlayerViewController alloc] init];
+
+    
+    
+    UIViewController *controller4 = [[UIViewController alloc] init];
+    controller4.view.backgroundColor = [UIColor grayColor];
+    controller4.tabBarItem.title = @"待定";
+    [tabbarController setViewControllers:@[navigationController,videocontroller,Playercontroller,controller4]];
+    self.window.rootViewController = tabbarController;
+    [self.window makeKeyAndVisible];
+    
+    
+    [[HONotification notificationManager] checkNotificationAuthorization];
 }
 
 
